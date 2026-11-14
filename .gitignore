@@ -1,0 +1,6 @@
+# arquivos de sessão do R
+.Rhistory
+.RData
+.Rproj.user/
+
+.ipynb_checkpoints/
