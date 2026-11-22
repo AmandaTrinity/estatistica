@@ -1,13 +1,24 @@
-# estatistica
+# Análise de sentimento de críticas de filmes com Naive Bayes
 
-como rodar o notebook no vscode
+Projeto 2 da disciplina de Estatística e Probabilidade para Computação 
 
-1. instale o pacote `jupyter` do python
-2. instale R e execute no terminal do R:
+Classificamos críticas do IMDB como positivas ou negativas com um Naive Bayes implementado do zero em R.
 
-```R
-install.packages('IRkernel')
-IRkernel::installspec()
-```
+- **Dados:** [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) (derivado de Maas et al., 2011)
+- **Notebook:** `main.ipynb` (o dataset já está em `data/IMDB Dataset.csv`)
 
-3. reinicie o vscode se preciso
+## Como rodar
+
+1. Instale o R e o Jupyter (pacote `jupyter` do Python).
+2. No terminal do R, registre o R como kernel do Jupyter:
+
+   ```r
+   install.packages("IRkernel")
+   IRkernel::installspec()
+   ```
+
+3. Abra a pasta do projeto no VS Code, abra o `main.ipynb`, escolha o kernel **R** e rode todas as células.
+
+## Grupo
+
+Amanda Trinity, Dayane Carla, Eduarda Torres, Luan Gustavo, Maria Luísa e Willian Rupert.
